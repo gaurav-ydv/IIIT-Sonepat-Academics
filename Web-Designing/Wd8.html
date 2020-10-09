@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Try Catch</title>
+	<script type="text/javascript">
+		function code()
+		{
+			var a=26;
+			try
+			{
+				var a= a.uppercase();
+				alert("Value of variable"+a);
+			}
+			catch(e)
+			{
+				alert("error occured");
+			}
+			finally
+			{
+				alert("This block will always exceute");
+			}
+		}
+	</script>
+</head>
+<body>
+<p>Click the button</p>
+<form>
+	<input type="button" value="Click Me" onclick="code()">
+</form>
+</body>
+</html>
